@@ -1,7 +1,7 @@
 package com.salar.algo240book.sorting;
 
 abstract class SortTemplate {
-    abstract void sort(Comparable[] arr);
+    public abstract void sort(Comparable[] arr);
 
     protected boolean isLess(Comparable first, Comparable second) {
         // I can see why IntelliJ is throwing a warning here. Because it doesn't know

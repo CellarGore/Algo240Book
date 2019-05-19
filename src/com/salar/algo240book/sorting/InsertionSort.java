@@ -2,7 +2,7 @@ package com.salar.algo240book.sorting;
 
 public class InsertionSort extends SortTemplate {
     @Override
-    void sort(Comparable[] arr) {
+    public void sort(Comparable[] arr) {
         int N = arr.length;
         for (int i = 1; i < N; i++) {
             // Insert arr[i] among a[i - 1], a[i - 2], a[i - 3]...

@@ -2,7 +2,7 @@ package com.salar.algo240book.sorting;
 
 public class SelectionSort extends SortTemplate {
     @Override
-    void sort(Comparable[] arr) {
+    public void sort(Comparable[] arr) {
         // Sort arr to increasing order
         int N = arr.length;
         for (int i = 0; i < N; i++) {
