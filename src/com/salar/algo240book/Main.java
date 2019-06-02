@@ -3,7 +3,6 @@ package com.salar.algo240book;
 import com.salar.algo240book.chapter1.UnionFind;
 import com.salar.algo240book.sorting.InsertionSort;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
